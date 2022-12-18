@@ -5,6 +5,7 @@
 Table: `World`
 
 | Column Name | Type    |
+|-------------|---------|
 | name        | varchar |
 | continent   | varchar |
 | area        | int     |
@@ -30,6 +31,7 @@ The query result format is in the following example.
 **Input:** 
 World table:
 | name          | continent   | area      | population   | gdp            |
+| ------------- | ----------- | --------- | ------------ | -------------- |
 | Afghanistan   | Asia        | 652230    | 25500100     | 20343000000    |
 | Albania       | Europe      | 28748     | 2831741      | 12960000000    |
 | Algeria       | Africa      | 2381741   | 37100000     | 188681000000   |
@@ -38,6 +40,7 @@ World table:
 
 **Output:** 
 | name        | population | area    |
+|-------------|------------|---------|
 | Afghanistan | 25500100   | 652230  |
 | Algeria     | 37100000   | 2381741 |
 
