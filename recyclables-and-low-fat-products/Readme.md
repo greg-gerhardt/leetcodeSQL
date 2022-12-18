@@ -9,6 +9,7 @@ Table: `Products`
 | product\_id  | int     |
 | low\_fats    | enum    |
 | recyclable  | enum    |
+
 product\_id is the primary key for this table.
 low\_fats is an ENUM of type ('Y', 'N') where 'Y' means this product is low fat and 'N' means it is not.
 recyclable is an ENUM of types ('Y', 'N') where 'Y' means this product is recyclable and 'N' means it is not.
