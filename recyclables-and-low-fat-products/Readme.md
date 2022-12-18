@@ -31,6 +31,7 @@ Products table:
 | 2           | N        | Y          |
 | 3           | Y        | Y          |
 | 4           | N        | N          |
+
 **Output:** 
 | product\_id  |
 |-------------|
